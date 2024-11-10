@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+    background-color: rgb(162, 164, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 6px solid #6b4fdb;
+    box-shadow: 0 0 4px gray;
+    background-color: #8eaac4;
+    border-radius: 3px;
+    width: 400px;
+    margin: 200px auto;
+    color:  #2b2839;
+}
+img {
+    width: 150px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container:hover {
+    box-shadow: 0 0 8px rgb(192, 108, 108);
+    background-color: cadetblue;
+    transition: 0.2s ease-in-out;
+}
